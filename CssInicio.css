@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header{
     background: rgb(145, 91, 12);
     height: 70px;    
-    width: 100%;
+    width: 100% ;
 }
 
 nav {
@@ -28,4 +29,24 @@ nav > a:hover{    /*Efecto al poner el pulsor sobre el contenido*/
 }
 .clearfix{
     clear: both;
+}
+
+.titulos{
+    margin: 50px;
+    text-align: center;  /*para centrar textos*/
+}
+
+.contenedor-sobre-mi{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.contenedor-sobre-mi .sobre-mi-texto{
+    margin: 30px;
+    
+}
+
+.card-pryectos{
+    width: 30px;
+    height: 70px;
 }
